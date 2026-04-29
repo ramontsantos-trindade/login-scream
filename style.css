@@ -1,0 +1,82 @@
+
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background-color: #f4f7f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .login-container {
+        background: #ffffff;
+        padding: 2.5rem;
+        border-radius: 12px;
+       
+        border: 1px solid #e1e1e1; 
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: #333;
+    }
+
+   
+    .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        
+        border: 2px solid #ced4da; 
+        border-radius: 6px;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+        border-color: #4a90e2; 
+        outline: none;
+    }
+
+   
+    .form-check {
+        margin-bottom: 1.5rem;
+        padding: 10px;
+        border: 1px solid #ddd; 
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .form-text {
+        font-size: 0.8rem;
+        color: #888;
+        margin-top: 0.25rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .btn-primary:hover {
+        background-color: #357abd;
+    }
